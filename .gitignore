@@ -1,0 +1,53 @@
+# Maven and generated output
+target/
+out/
+dependency-reduced-pom.xml
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# IDE-local state
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+.classpath
+.factorypath
+.project
+.settings/
+
+# Logs and temporary files
+logs/
+*.log
+*.tmp
+*.temp
+*.swp
+*~
+
+# Local environment and configuration
+.env
+.env.*
+!.env.example
+application-local.properties
+application-local.yml
+application-local.yaml
+*.local.properties
+
+# Secrets and credentials
+*.jks
+*.keystore
+*.key
+*.p12
+*.pfx
+*.pem
+credentials.*
+!credentials.example.*
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
